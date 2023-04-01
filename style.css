@@ -55,6 +55,7 @@ body {
 	font-size: 10px;
 	line-height: 12px;
 	color: #e4e5ea;
+	margin-top: 6px;
 }
 
 .nav {
@@ -154,7 +155,7 @@ body {
 }
 
 .header_logo {
-	width: 160px;
+	width: 75px;
 }
 
 .header_icon,
@@ -165,7 +166,19 @@ body {
 
 ul.header_menu li {
 	display: inline;
-	margin: 8px;
+}
+.header_contacts {
+	display: flex;
+}
+.social {
+	margin-left: 42px;
+}
+.header_contacts a:not(:first-child) {
+	margin-left: 15px;
+}
+
+ul.header_menu li:not(:first-child) {
+	margin-left: 30px;
 }
 
 a {
