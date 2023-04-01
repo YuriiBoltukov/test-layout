@@ -93,6 +93,37 @@ body {
 	text-fill-color: transparent;
 }
 
+.main_title p {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #e4e5ea;
+}
+
+.main_description_feature_item_title {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: right;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #e4e5ea;
+}
+
+.main_description_feature_item_title p {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: right;
+	color: #e4e5ea;
+}
+
 .main_description_highlight {
 	font-family: 'Inter';
 	font-style: normal;
@@ -110,6 +141,16 @@ body {
 .header_description {
 	padding-top: 11px;
 	font-size: 12px;
+}
+
+.header_contacts span {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: right;
+	color: #e4e5ea;
 }
 
 .header_logo {
@@ -186,6 +227,12 @@ button {
 	margin-top: 32px;
 	position: relative;
 	top: 0;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
 }
 
 button:hover {
@@ -202,6 +249,23 @@ footer {
 	color: var(--darkGrey);
 	font-weight: bold;
 	margin-bottom: 16px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #656566;
+}
+
+.footer_menu_items {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #e4e5ea;
 }
 
 .footer_title_hid {
@@ -221,7 +285,12 @@ ul {
 	grid-column: span 8;
 	margin-top: 32px;
 	text-align: end;
-	font-size: 0.7rem;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	color: #e4e5ea;
 }
 
 .footer_text {
