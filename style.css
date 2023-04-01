@@ -165,8 +165,7 @@ body {
 	width: 75px;
 }
 
-.header_icon,
-.footer_icon {
+.header_icon {
 	width: 16px;
 	margin-inline: 6px;
 }
@@ -207,22 +206,30 @@ main {
 }
 
 .main_description {
-	text-align: end;
-	/*  To line up with 'main-left'*/
-	margin-top: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	max-width: 340px;
+	margin-top: 26px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: right;
+	letter-spacing: 0.8px;
 }
 
 .main_description_features {
 	display: flex;
-	justify-content: end;
 	flex-wrap: wrap;
-	gap: 16px;
 	text-align: end;
 	margin-top: 16px;
 }
 
 .main_description_feature_item {
-	width: 192px;
+	flex-basis: 170px;
+	margin-top: 25px;
 }
 
 .main_description_feature_item h3 {
@@ -238,13 +245,13 @@ main {
 }
 
 button {
-	width: 290px;
-	height: 40px;
+	width: 262px;
+	height: 60px;
 	border-radius: 1px;
 	border: none;
 	background: var(--blue);
 	color: var(--mainFont);
-	margin-top: 32px;
+	margin-top: 56px;
 	position: relative;
 	top: 0;
 	font-family: 'Inter';
@@ -265,6 +272,19 @@ footer {
 	justify-content: space-between;
 }
 
+.footer {
+	display: flex;
+	margin-top: 124px;
+}
+
+.footer_about_wrapper {
+	display: flex;
+}
+.footer_icon {
+	width: 16px;
+	margin-inline: 4px;
+}
+
 .footer_title {
 	color: var(--darkGrey);
 	font-weight: bold;
@@ -278,6 +298,13 @@ footer {
 	text-transform: uppercase;
 	color: #656566;
 }
+.footer_menu {
+	margin-left: 111px;
+}
+
+.footer_menu_second {
+	margin-left: 52px;
+}
 
 .footer_menu_items {
 	font-family: 'Inter';
@@ -287,11 +314,14 @@ footer {
 	line-height: 19px;
 	color: #e4e5ea;
 }
+.footer_menu_items:not(:first-child) {
+	margin-top: 24px;
+}
 
 .footer_title_hid {
 	visibility: hidden;
 	font-weight: bold;
-	margin-bottom: 16px;
+	margin-bottom: -12px;
 }
 
 .footer_contacts {
@@ -303,7 +333,7 @@ ul {
 
 .footer_extra {
 	grid-column: span 8;
-	margin-top: 32px;
+	margin-top: 72px;
 	text-align: end;
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -315,6 +345,12 @@ ul {
 
 .footer_text {
 	margin-block: 16px;
+	letter-spacing: 1.2px;
+}
+
+.footer_text_adress {
+	margin-block: 16px;
+	letter-spacing: 0.6px;
 }
 
 ul.footer_about li,
