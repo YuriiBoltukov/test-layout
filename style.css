@@ -80,7 +80,13 @@ body {
 	font-size: 48px;
 	line-height: 58px;
 	color: #e4e5ea;
+	margin-top: 10px;
 }
+
+.main_title {
+	max-width: 264px;
+}
+
 .main_title_highlight {
 	font-family: 'Inter', sans-serif;
 	font-style: normal;
@@ -101,6 +107,7 @@ body {
 	font-size: 18px;
 	line-height: 22px;
 	color: #e4e5ea;
+	margin-top: 30px;
 }
 
 .main_description_feature_item_title {
@@ -316,8 +323,7 @@ ul.footer_menu_items li {
 }
 
 span.main_description_highlight,
-span.main_description_dash,
-span.main_title_highlight {
+span.main_description_dash {
 	background: linear-gradient(90deg, #ffbf2e, #fe5a1c);
 	font-weight: bold;
 	-webkit-background-clip: text;
@@ -378,10 +384,6 @@ a.footer_policy {
 		margin-block: 48px;
 		margin-inline: 16px;
 		padding: 0;
-	}
-
-	.main_title {
-		grid-column: span 1;
 	}
 
 	.main_description {
