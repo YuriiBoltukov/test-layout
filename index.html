@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>2 task</title>
-    <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
@@ -26,10 +25,10 @@
                     <li><a href="#">Виджеты</a></li>
                     <li><a href="#">Интеграция</a></li>
                     <li><a href="#">Кейсы</a></li>
-                    <li><a href="#">Сертификаты</a></li>
+                    <li class='hidden'><a href="#">Сертификаты</a></li>
                 </ul>
                 <div class="header_contacts">
-                    <span>+7 555 555-55-55</span>
+                    <span class='header_contacts_tel'>+7 555 555-55-55</span>
                     <div class='social'>
                         <a href="#"><img class="header_icon" src="src/telega.png" alt="telegram" /></a>
                         <a href="#"><img class="header_icon" src="src/viber.png" alt="viber" /></a>
@@ -38,7 +37,7 @@
                 </div>
             </nav>
         </header>
-        <main>
+        <main class='main'>
             <div class="main_title">
                 <h1 class='title'>Зарабатывайте больше <br><span class="main_title_highlight">с WELBEX</span></h1>
                 <p>Развиваем и контролируем продажи за вас</p>
@@ -82,25 +81,27 @@
                         <li><a href="#">Вакансии</a></li>
                     </ul>
                 </div>
-                <div class="footer_menu">
-                    <h3 class="footer_title">МЕНЮ</h3>
-                    <ul class="footer_menu_items">
-                        <li><a href="#">Расчёт стоимости</a></li>
-                        <li><a href="#">Услуги</a></li>
-                        <li><a href="#">Виджеты</a></li>
-                        <li><a href="#">Интеграция</a></li>
-                        <li><a href="#">Наши клиенты</a></li>
-                    </ul>
-                </div>
-                <div class="footer_menu_second">
-                    <h3 class="footer_title_hid">МЕНЮ</h3>
-                    <ul class="footer_menu_items">
-                        <li><a href="#">Кейсы</a></li>
-                        <li><a href="#">Благодарственное письмо</a></li>
-                        <li><a href="#">Сертификаты</a></li>
-                        <li><a href="#">Блог на YouTube</a></li>
-                        <li><a href="#">Вопрос / Ответ </a></li>
-                    </ul>
+                <div class='footer_menu_wrapper'>
+                    <div class="footer_menu">
+                        <h3 class="footer_title">МЕНЮ</h3>
+                        <ul class="footer_menu_items">
+                            <li><a href="#">Расчёт стоимости</a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Виджеты</a></li>
+                            <li><a href="#">Интеграция</a></li>
+                            <li><a href="#">Наши клиенты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_menu_second">
+                        <h3 class="footer_title_hid">МЕНЮ</h3>
+                        <ul class="footer_menu_items">
+                            <li><a href="#">Кейсы</a></li>
+                            <li><a href="#">Благодарственное письмо</a></li>
+                            <li><a href="#">Сертификаты</a></li>
+                            <li><a href="#">Блог на YouTube</a></li>
+                            <li><a href="#">Вопрос / Ответ </a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="footer_contacts">
